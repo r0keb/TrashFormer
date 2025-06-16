@@ -79,4 +79,4 @@ Then we can execute the buffer to test if we get any error
 ...
 ```
 
-[](imgs/BufferExec.png)
+[](img/BufferExec.png)
