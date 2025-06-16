@@ -8,7 +8,7 @@
 - It's called from C++ for ease of integration and display.
 - In the code, I deliberately avoid using the stack, keeping it clean (except for `push` and `pop`). Everything is handled via variables and registers: `rax`, `rdx`, `rdx`, `r8`, and `r9`.
 
-You can find an explanation of the internals of both this engine and ETG, created by z0mbie and the engine that inspired TrashFormer, on my blog post (Junk Code Engines for Polymorphic Malware)[https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/]
+You can find an explanation of the internals of both this engine and ETG, created by z0mbie and the engine that inspired TrashFormer, on my blog post [Junk Code Engines for Polymorphic Malware](https://r0keb.github.io/posts/Junk-Code-Engines-for-Polymorphic-Malware/)
 
 ## POC
 Here’s a proof of concept demonstrating how the engine works. The result is a fully executable buffer.
