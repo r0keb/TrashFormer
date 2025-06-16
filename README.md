@@ -71,3 +71,12 @@ Here's the generated code:
 4D 8B C2             mov         r8,r10  
 4C 3B DB             cmp         r11,rbx 
 ```
+
+Then we can execute the buffer to test if we get any error
+```cpp
+...
+	(*(void(*)())(void*)pTrashBuffer) ();
+...
+```
+
+[](imgs/BufferExec.png)
